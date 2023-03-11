@@ -12,7 +12,7 @@ module.exports = [
             "data:",
             "blob:",
             "dl.airtable.com",
-            "yourBucketName.s3.yourRegion.amazonaws.com",
+            "wanderrides.s3.ap-south-1.amazonaws.com",
           ],
           "media-src": [
             "'self'",
