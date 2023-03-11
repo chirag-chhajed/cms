@@ -12,7 +12,7 @@ module.exports = ({ env }) => [
             "data:",
             "blob:",
             "dl.airtable.com",
-            `https://${env("AWS_BUCKET")}.s3.${env(
+            `https://${env("AWS_BUCKET_NAME")}.s3.${env(
               "AWS_REGION"
             )}.amazonaws.com/`,
           ],
