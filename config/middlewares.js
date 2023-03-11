@@ -12,14 +12,18 @@ module.exports = [
             "data:",
             "blob:",
             "dl.airtable.com",
-            "wanderrides.s3.ap-south-1.amazonaws.com",
+            `https://${env("AWS_BUCKET")}.s3.${env(
+              "AWS_REGION"
+            )}.amazonaws.com/`,
           ],
           "media-src": [
             "'self'",
             "data:",
             "blob:",
             "dl.airtable.com",
-            "wanderrides-content.s3.ap-south-1.amazonaws.com",
+            `https://${env("AWS_BUCKET")}.s3.${env(
+              "AWS_REGION"
+            )}.amazonaws.com/`,
           ],
           upgradeInsecureRequests: null,
         },
