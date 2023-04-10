@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "car_details",
+  "info": {
+    "singularName": "car-detail",
+    "pluralName": "car-details",
+    "displayName": "carDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "brandName": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "location": {
+      "type": "string"
+    },
+    "contactPerson": {
+      "type": "string"
+    },
+    "seatCapacity": {
+      "type": "integer"
+    },
+    "gearBoxType": {
+      "type": "string",
+      "default": "Manual"
+    },
+    "numberofBags": {
+      "type": "integer"
+    },
+    "amountPerDay": {
+      "type": "integer"
+    },
+    "carDescription": {
+      "type": "text"
+    },
+    "carDescriptionSecondPart": {
+      "type": "text"
+    },
+    "includes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "include.includes"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.images"
+    },
+    "vehicleParameters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vehicle-parameter.vehicle-parameters"
+    },
+    "map": {
+      "type": "component",
+      "repeatable": true,
+      "component": "map.map",
+      "max": 1
+    }
+  }
+}

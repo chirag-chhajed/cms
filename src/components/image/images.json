@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_image_images",
+  "info": {
+    "displayName": "Images"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_map_maps",
+  "info": {
+    "displayName": "map"
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "float",
+      "default": 26.148043
+    },
+    "lng": {
+      "type": "float",
+      "default": 91.731377
+    }
+  }
+}

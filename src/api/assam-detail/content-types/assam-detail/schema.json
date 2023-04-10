@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assam_details",
+  "info": {
+    "singularName": "assam-detail",
+    "pluralName": "assam-details",
+    "displayName": "assamDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "state": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "brandName": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "numberOfVotes": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "contactPerson": {
+      "type": "string"
+    },
+    "seatCapacity": {
+      "type": "integer"
+    },
+    "locationDescription": {
+      "type": "text"
+    },
+    "locationDescriptionSecondPart": {
+      "type": "text"
+    },
+    "include": {
+      "type": "component",
+      "repeatable": true,
+      "component": "include.includes"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.images"
+    },
+    "knowAbout": {
+      "type": "component",
+      "repeatable": true,
+      "component": "know-about.knows-about"
+    }
+  }
+}

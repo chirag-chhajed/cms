@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_include_includes",
+  "info": {
+    "displayName": "includes"
+  },
+  "options": {},
+  "attributes": {
+    "include": {
+      "type": "text"
+    }
+  }
+}

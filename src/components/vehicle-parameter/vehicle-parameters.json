@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_vehicle_parameter_vehicle_parameters",
+  "info": {
+    "displayName": "vehicleParameters"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "text"
+    }
+  }
+}

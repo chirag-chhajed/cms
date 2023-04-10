@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_know_about_knows_abouts",
+  "info": {
+    "displayName": "knowsAbout"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
