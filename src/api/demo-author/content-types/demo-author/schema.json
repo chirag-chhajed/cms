@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_authors",
+  "info": {
+    "singularName": "demo-author",
+    "pluralName": "demo-authors",
+    "displayName": "DEMO_AUTHOR"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "bgImage": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "href": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "jobName": {
+      "type": "string"
+    }
+  }
+}

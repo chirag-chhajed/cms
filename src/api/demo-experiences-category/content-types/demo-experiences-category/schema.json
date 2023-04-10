@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_experiences_categories",
+  "info": {
+    "singularName": "demo-experiences-category",
+    "pluralName": "demo-experiences-categories",
+    "displayName": "DEMO_EXPERIENCES_CATEGORY"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "color": {
+      "type": "string"
+    },
+    "taxonomy": {
+      "type": "string",
+      "default": "category"
+    },
+    "listingType": {
+      "type": "string",
+      "default": "experiences"
+    }
+  }
+}

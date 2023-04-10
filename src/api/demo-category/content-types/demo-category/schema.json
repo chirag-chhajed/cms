@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_categories",
+  "info": {
+    "singularName": "demo-category",
+    "pluralName": "demo-categories",
+    "displayName": "DEMO_CATEGORY"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "color": {
+      "type": "string"
+    },
+    "taxonomy": {
+      "type": "string",
+      "default": "category"
+    }
+  }
+}

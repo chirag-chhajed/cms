@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_stay_categories",
+  "info": {
+    "singularName": "demo-stay-category",
+    "pluralName": "demo-stay-categories",
+    "displayName": "DEMO_STAY_CATEGORY"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "color": {
+      "type": "string"
+    },
+    "taxonomy": {
+      "type": "string",
+      "default": "category"
+    },
+    "listingType":{
+      "type": "string",
+      "default": "stay"
+    }
+  }
+}
