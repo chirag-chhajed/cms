@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "founder_demo_statisics",
+  "info": {
+    "singularName": "founder-demo-statisic",
+    "pluralName": "founder-demo-statisics",
+    "displayName": "FOUNDER_DEMO_STATISIC"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    }
+  }
+}

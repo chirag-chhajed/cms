@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_bookmark_bookmarks",
+  "info": {
+    "displayName": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "integer"
+    },
+    "isBookmarked": {
+      "type": "boolean"
+    }
+  }
+}

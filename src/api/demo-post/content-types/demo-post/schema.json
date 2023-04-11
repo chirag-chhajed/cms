@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_posts",
+  "info": {
+    "singularName": "demo-post",
+    "pluralName": "demo-posts",
+    "displayName": "DEMO_POST",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "featuredImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "href": {
+      "type": "string",
+      "default": "/blog-single"
+    },
+    "commentCount": {
+      "type": "integer"
+    },
+    "viewdCount": {
+      "type": "integer"
+    },
+    "readingTime": {
+      "type": "integer"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::demo-author.demo-author"
+    },
+    "bookmark": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bookmark.bookmark"
+    },
+    "like": {
+      "type": "component",
+      "repeatable": false,
+      "component": "like.like"
+    },
+    "postType": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "video",
+        "gallery",
+        "audio"
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_stay_listings",
+  "info": {
+    "singularName": "demo-stay-listing",
+    "pluralName": "demo-stay-listings",
+    "displayName": "DEMO_STAY_LISTING",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "href": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "featuredImage": {
+      "type": "string"
+    },
+    "galleryImgs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.images"
+    },
+    "commentCount": {
+      "type": "integer"
+    },
+    "viewCount": {
+      "type": "integer"
+    },
+    "like": {
+      "type": "boolean"
+    },
+    "address": {
+      "type": "string"
+    },
+    "reviewStart": {
+      "type": "biginteger"
+    },
+    "reviewCount": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "string"
+    },
+    "maxGuests": {
+      "type": "integer"
+    },
+    "bedrooms": {
+      "type": "integer"
+    },
+    "bathrooms": {
+      "type": "integer"
+    },
+    "saleOff": {
+      "type": "string"
+    },
+    "isAds": {
+      "type": "boolean"
+    },
+    "map": {
+      "type": "component",
+      "repeatable": false,
+      "component": "map.map"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::demo-author.demo-author"
+    },
+    "listingCategory": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::demo-stay-category.demo-stay-category"
+    }
+  }
+}

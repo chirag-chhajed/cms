@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_like_likes",
+  "info": {
+    "displayName": "like"
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "integer"
+    },
+    "isLiked": {
+      "type": "boolean"
+    }
+  }
+}

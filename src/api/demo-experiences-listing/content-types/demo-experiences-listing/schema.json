@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_experiences_listings",
+  "info": {
+    "singularName": "demo-experiences-listing",
+    "pluralName": "demo-experiences-listings",
+    "displayName": "DEMO_EXPERIENCES_LISTING"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "state": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "href": {
+      "type": "string",
+      "default": "/listing-experiences-detail"
+    },
+    "title": {
+      "type": "string"
+    },
+    "featuredImage": {
+      "type": "string"
+    },
+    "galleryImgs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.images"
+    },
+    "commentCount": {
+      "type": "integer"
+    },
+    "viewCount": {
+      "type": "integer"
+    },
+    "like": {
+      "type": "boolean"
+    },
+    "address": {
+      "type": "string"
+    },
+    "reviewStart": {
+      "type": "decimal"
+    },
+    "reviewCount": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "string"
+    },
+    "maxGuests": {
+      "type": "integer"
+    },
+    "saleOff": {
+      "type": "string"
+    },
+    "isAds": {
+      "type": "string"
+    },
+    "map": {
+      "type": "component",
+      "repeatable": false,
+      "component": "map.map"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::demo-author.demo-author"
+    },
+    "listingCategory": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::demo-experiences-category.demo-experiences-category"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_cats",
+  "info": {
+    "singularName": "demo-cat",
+    "pluralName": "demo-cats",
+    "displayName": "DEMO_CAT"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "taxonomy": {
+      "type": "enumeration",
+      "enum": [
+        "category",
+        "tag"
+      ]
+    },
+    "count": {
+      "type": "integer"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "listingType": {
+      "type": "enumeration",
+      "enum": [
+        "stay",
+        "experiences",
+        "car"
+      ]
+    }
+  }
+}
