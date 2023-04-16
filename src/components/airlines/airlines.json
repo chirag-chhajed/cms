@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_airlines_airlines",
+  "info": {
+    "displayName": "airlines"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -7,10 +7,12 @@
   "options": {},
   "attributes": {
     "lat": {
-      "type": "float"
+      "type": "float",
+      "default": 59.955413
     },
     "lng": {
-      "type": "float"
+      "type": "float",
+      "default": 30.337844
     }
   }
 }

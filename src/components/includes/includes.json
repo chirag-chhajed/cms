@@ -1,7 +1,8 @@
 {
   "collectionName": "components_include_includes",
   "info": {
-    "displayName": "includes"
+    "displayName": "includes",
+    "description": ""
   },
   "options": {},
   "attributes": {

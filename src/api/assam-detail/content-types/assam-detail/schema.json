@@ -45,10 +45,10 @@
     "locationDescriptionSecondPart": {
       "type": "text"
     },
-    "include": {
+    "includes": {
       "type": "component",
       "repeatable": true,
-      "component": "include.includes"
+      "component": "includes.includes"
     },
     "images": {
       "type": "component",

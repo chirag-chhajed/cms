@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_videos",
+  "info": {
+    "singularName": "demo-video",
+    "pluralName": "demo-videos",
+    "displayName": "DEMO_VIDEO"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Magical Scotland - 4K Scenic Relaxation Film with Calming Music"
+    },
+    "thumbnail": {
+      "type": "string"
+    }
+  }
+}

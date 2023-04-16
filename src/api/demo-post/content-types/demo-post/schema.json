@@ -60,6 +60,11 @@
         "gallery",
         "audio"
       ]
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::demo-category.demo-category"
     }
   }
 }

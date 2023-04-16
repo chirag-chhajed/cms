@@ -4,7 +4,8 @@
   "info": {
     "singularName": "demo-category",
     "pluralName": "demo-categories",
-    "displayName": "DEMO_CATEGORY"
+    "displayName": "DEMO_CATEGORY",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +16,8 @@
       "type": "string"
     },
     "href": {
-      "type": "string"
+      "type": "string",
+      "default": "/"
     },
     "thumbnail": {
       "type": "string"
@@ -23,12 +25,22 @@
     "count": {
       "type": "integer"
     },
-    "color": {
-      "type": "string"
-    },
     "taxonomy": {
       "type": "string",
       "default": "category"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "pink",
+        "green",
+        "yellow",
+        "red",
+        "indigo",
+        "blue",
+        "purple",
+        "gray"
+      ]
     }
   }
 }

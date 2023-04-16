@@ -4,7 +4,8 @@
   "info": {
     "singularName": "demo-experiences-listing",
     "pluralName": "demo-experiences-listings",
-    "displayName": "DEMO_EXPERIENCES_LISTING"
+    "displayName": "DEMO_EXPERIENCES_LISTING",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -59,9 +60,6 @@
     "saleOff": {
       "type": "string"
     },
-    "isAds": {
-      "type": "string"
-    },
     "map": {
       "type": "component",
       "repeatable": false,
@@ -72,10 +70,13 @@
       "relation": "oneToOne",
       "target": "api::demo-author.demo-author"
     },
-    "listingCategory": {
+    "demo_stay_category": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::demo-experiences-category.demo-experiences-category"
+      "target": "api::demo-stay-category.demo-stay-category"
+    },
+    "isAds": {
+      "type": "boolean"
     }
   }
 }

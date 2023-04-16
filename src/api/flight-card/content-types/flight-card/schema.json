@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flight_cards",
+  "info": {
+    "singularName": "flight-card",
+    "pluralName": "flight-cards",
+    "displayName": "FlightCard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "string"
+    },
+    "airlines": {
+      "type": "component",
+      "repeatable": false,
+      "component": "airlines.airlines"
+    }
+  }
+}

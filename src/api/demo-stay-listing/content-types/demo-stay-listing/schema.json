@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "date": {
-      "type": "date"
+      "type": "date",
+      "default": "2021-05-20"
     },
     "href": {
-      "type": "string"
+      "type": "string",
+      "default": "/listing-stay-detail"
     },
     "title": {
       "type": "string"
@@ -42,7 +44,7 @@
       "type": "string"
     },
     "reviewStart": {
-      "type": "biginteger"
+      "type": "decimal"
     },
     "reviewCount": {
       "type": "integer"
