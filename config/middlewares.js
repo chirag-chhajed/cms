@@ -29,14 +29,21 @@ module.exports = ({ env }) => [
         },
       },
     },
-    settings: {
-      cors: {
-        enabled: true,
-        origin: ["*"],
-      },
+  },
+  {
+    name: "strapi::cors",
+    config: {
+      origin: [
+        "http://localhost:3000",
+        "https://wanderrides-cms.onrender.com",
+        "https://wanderrides.vercel.app",
+        "*",
+      ],
+      methods: ["GET"],
+      headers: ["Content-Type", "Authorization", "Origin", "Accept"],
+      keepHeaderOnError: true,
     },
   },
-  "strapi::cors",
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
